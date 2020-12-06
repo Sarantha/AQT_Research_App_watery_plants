@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.industrialmaster.aqt_reseatch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity_stats"></activity>
+        <activity android:name=".activity_about" />
+        <activity android:name=".activity_acknowledgement" />
+        <activity android:name=".activity_anubias_berter" />
+        <activity android:name=".activity_anubias" />
+        <activity android:name=".activity_echinodorus_cordifolius" />
+        <activity android:name=".activity_echinodorus" />
+        <activity android:name=".activity_aponogeton_rigidifolius" />
+        <activity android:name=".activity_aponogeton_natans" />
+        <activity android:name=".activity_aponogeton_jacobsonii" />
+        <activity android:name=".activity_aponogeton_crispus" />
+        <activity android:name=".activity_aponogeton" />
+        <activity android:name=".activity_lagenandra_bogneri" />
+        <activity android:name=".activity_lagenandra_thwaitesii" />
+        <activity android:name=".activity_lagenandra_jacobsenii" />
+        <activity android:name=".activity_lagenandra_erosa" />
+        <activity android:name=".activity_lagenandra_koenigii" />
+        <activity android:name=".activity_lagenandra_lancifolia" />
+        <activity android:name=".activity_lagenandra_praetermissa" />
+        <activity android:name=".activity_Lagenandra" />
+        <activity android:name=".activity_cryptocoryne_undulata" />
+        <activity android:name=".activity_cryptocoryne_nevillii" />
+        <activity android:name=".activity_cryptocoryne_walkeri" />
+        <activity android:name=".activity_cryptocoryne_bogneri" />
+        <activity android:name=".activity_cryptocoryne_alba" />
+        <activity android:name=".acttivity_cryptocoryne_thwaitesii" />
+        <activity android:name=".activity_cryptocoryne_willisii" />
+        <activity android:name=".activity_cryptocoryne_parva" />
+        <activity android:name=".activity_cryptocoryne_wendtii" />
+        <activity android:name=".activity_cryptocoryne_becketti" />
+        <activity android:name=".Activity_Cryptocoryne" />
+        <activity android:name=".activity_exotic" />
+        <activity android:name=".activity_endemic" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
